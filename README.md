@@ -17,6 +17,7 @@ Install [`Django`](https://www.djangoproject.com/) to your system by using this 
 
 ```commandline
 pip install django
+pip install Pillow
 ```
 
 If done, create a new project file by typing this
@@ -154,7 +155,7 @@ def viewer(request):
 
 ```
 
-Now the `server` is ready to go
+Now the `server` is ready to go.
 
 ## Step 3:
 
@@ -274,7 +275,7 @@ By this your `database` is ready to store all `Images` Information.
 [__Django__](https://www.djangoproject.com/) use [sqlite3](https://sqlite.org/index.html) as a default `database`. To know more about [sqlite3](https://sqlite.org/index.html) Click [Here](https://sqlite.org/index.html)
 
 
-## Step 6
+## Step 6:
 
 Now create `forms.py` file and edit it accordingly
 
@@ -294,7 +295,7 @@ This file make a connection between your `frontend` with your `backend`.
 
 Your server is all set, It's time to set your `html` file to upload your images into your database.
 
-## Step 7
+## Step 7:
 
 Open your `html` file and go to the form section [If There is no form section, add all entry field and buttons in between the form tag].
 
