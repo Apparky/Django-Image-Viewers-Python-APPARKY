@@ -28,3 +28,5 @@ def index(request):
 def viewer(request):
     posts = Post_info.objects.all()
     return render(request, 'view.html', {'posts': posts})
+
+

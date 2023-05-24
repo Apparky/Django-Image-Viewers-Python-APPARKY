@@ -7,3 +7,4 @@ class PostInfo(forms.ModelForm):
         model = Post_info
         fields = ['topic', 'description', 'images', 'img_alt']
 
+
