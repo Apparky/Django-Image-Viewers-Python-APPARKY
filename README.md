@@ -20,6 +20,14 @@ pip install django
 pip install Pillow
 ```
 
+We also attached a `requirement.txt` file with this repo with all credentials. 
+Follow this command to Install Libraries fro `requirement.txt`
+
+```commandline
+pip install -r requirement.txt
+```
+
+
 If done, create a new project file by typing this
 
 ```commandline
